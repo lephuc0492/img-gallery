@@ -23,6 +23,14 @@ li
 	width: 1000px;
 	height: 300px;
 	margin-top: 10px;
+	margin-bottom: 10px;
+float: left;
+}
+.anhbanner
+{
+
+	overflow: auto;
+	float: left;
 }
 .anh-gallery1 img
 {
@@ -40,6 +48,7 @@ li
 	width: 500px;
 	height: 300px;
 
+
 	padding-right: 10px;
 	float: left;
 }
@@ -53,6 +62,7 @@ li
 .listanh
 {
 	margin-left: 5px;
+	max-width: 1000px;
 }
 div.listanh img:hover
 {
