@@ -1,0 +1,62 @@
+*
+{
+	box-sizing: border-box;
+}
+li
+{
+	list-style: none;
+	float: left;
+	margin-right: 10px;
+	font-size: 30px;
+	border: solid 5px;
+	border-color: blue;
+
+}
+.tongthe
+{
+	margin: 10px; 
+	margin-left: 120px;
+}
+
+.anhbanner img
+{
+	width: 1000px;
+	height: 300px;
+	margin-top: 10px;
+}
+.anh-gallery1 img
+{
+	width: 490px;
+	height: 290px;
+}
+.anh-gallery2 img
+{
+	width: 490px;
+	height: 290px;
+}
+
+.anh-gallery1
+{
+	width: 500px;
+	height: 300px;
+
+	padding-right: 10px;
+	float: left;
+}
+.anh-gallery2
+{
+	width: 500px;
+	height: 300px;
+
+	float: left;
+}
+.listanh
+{
+	margin-left: 5px;
+}
+div.listanh img:hover
+{
+	-webkit-transform: scale(.5);
+	-webkit-transition-timing-function: ease-out;
+	-webkit-transition-duration: 500ms;
+}
