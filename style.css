@@ -10,63 +10,71 @@ li
 	font-size: 30px;
 	border: solid 5px;
 	border-color: blue;
+	background-color: orange;
+    width: 150px;
+    text-align: center;
 
 }
 .tongthe
 {
-	margin: 10px; 
+	margin: 0px; 
 	margin-left: 120px;
+	width: 1000px;
 }
 
 .anhbanner img
+{
+	width: 100%;
+	height: 100%;
+
+
+}
+.anhbanner
 {
 	width: 1000px;
 	height: 300px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-float: left;
-}
-.anhbanner
-{
 
-	overflow: auto;
-	float: left;
 }
 .anh-gallery1 img
 {
-	width: 490px;
-	height: 290px;
+	width: 100%;
+	height: 100%;
+
 }
 .anh-gallery2 img
 {
-	width: 490px;
-	height: 290px;
+	width: 100%;
+	height: 100%;
 }
 
 .anh-gallery1
 {
-	width: 500px;
+	width: 50%;
 	height: 300px;
-
-
 	padding-right: 10px;
 	float: left;
 }
 .anh-gallery2
 {
-	width: 500px;
+	width: 50%;
 	height: 300px;
-
+	padding-left: 10px;
 	float: left;
 }
 .listanh
 {
-	margin-left: 5px;
-	max-width: 1000px;
+
+	width: 1000px;
 }
 div.listanh img:hover
 {
 	-webkit-transform: scale(.5);
 	-webkit-transition-timing-function: ease-out;
 	-webkit-transition-duration: 500ms;
+}
+a
+{
+	text-decoration: none;
 }
